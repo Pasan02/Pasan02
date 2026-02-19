@@ -1,7 +1,7 @@
 # Hi, I'm Pasan Ranaweera👋  
 ### Aspiring Cloud & DevOps Engineer | Systems Builder
 
-Final-year engineering student focused on Cloud, DevOps, and automation.  
+Computer engineering student focused on Cloud, DevOps, and automation.  
 I design and deploy real-world systems, optimize workflows, and turn complex problems into scalable solutions.
 
 ---
