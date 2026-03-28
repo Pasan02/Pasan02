@@ -1,67 +1,14 @@
-# Hi, I'm Pasan Ranaweera👋  
-### Aspiring Cloud & DevOps Engineer | Systems Builder
-
-Computer engineering student focused on Cloud, DevOps, and automation.  
-I design and deploy real-world systems, optimize workflows, and turn complex problems into scalable solutions.
-
+<div align="center">
+  <img src="terminal_profile.svg" alt="Pasan Ranaweera — DevOps / Cloud Engineer" width="100%"/>
+</div>
+ 
 ---
-
-## 🚀 What I’m Focused On
-- Cloud Engineering & architecture
-- DevOps practices and CI/CD pipelines
-- Automation for real business operations
-- Building production-ready systems, not just prototypes
-
----
-
-## 🧰 Tech Stack
-
-### Cloud & DevOps
-- Microsoft Azure
-- AWS & GCP
-- Docker & Docker Compose  
-- GitHub Actions  
-- Linux (Debian-based environments)
-
-### Backend & Systems
-- Node.js / TypeScript  
-- FastAPI
-- Springboot 
-- REST API design  
-- System architecture & workflow automation
-
-### Databases & Tools
-- PostgreSQL, MySQL
-- Prisma
-- MongoDB   
-- Git & GitHub  
-- Bash/scripting
-- Microsoft Power Automate
-
-### Frontend (Working knowledge)
-- Next.js  
-- React  
-- TailwindCSS
-
----
-
-## 📌 Notable Work
-- Deployed and managed a Dockerized CRM system on Azure for a real travel business  
-- Built automation workflows for operations, marketing, and data handling  
-- Designed system architectures focused on scalability, cost, and maintainability  
-
----
-
-## 🎯 Career Direction
-Actively preparing for internships and entry roles in:
-- Cloud Engineering  
-- DevOps Engineering  
-- Platform / Infrastructure roles  
-
-I’m especially interested in environments where I can work on real systems, deployments, and operational challenges.
-
----
-
-## 📫 Connect With Me
-- LinkedIn: https://www.linkedin.com/in/pasan-ranaweera-608185246/
-- Email: pasanranaweera5@gmail.com
+ 
+<div align="center">
+ 
+[![Portfolio](https://img.shields.io/badge/Portfolio-pasan02.github.io-3fb950?style=flat-square&logo=github&logoColor=white)](https://pasan02.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pasan2002-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/pasan2002/)
+[![Email](https://img.shields.io/badge/Email-pasanranaweera5%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pasanranaweera5@gmail.com)
+[![Open to Work](https://img.shields.io/badge/Status-Open%20to%20Internships-3fb950?style=flat-square)](https://pasan02.github.io/)
+ 
+</div>
