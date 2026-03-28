@@ -1,0 +1,229 @@
+<svg width="860" height="620" viewBox="0 0 860 620" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .tbar { fill: #161b22; }
+      .box { fill: #161b22; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .ttl { fill: #8b949e; font-size: 11px; }
+      .prompt-host { fill: #3fb950; font-size: 11px; }
+      .prompt-sym { fill: #58a6ff; font-size: 11px; }
+      .key { fill: #58a6ff; font-size: 11px; font-weight: 500; }
+      .val { fill: #c9d1d9; font-size: 11px; }
+      .dim { fill: #8b949e; font-size: 10px; }
+      .grn { fill: #3fb950; font-size: 11px; }
+      .grn-sm { fill: #3fb950; font-size: 10px; }
+      .blu { fill: #58a6ff; font-size: 11px; }
+      .org { fill: #f0883e; font-size: 11px; }
+      .pur { fill: #d2a8ff; font-size: 11px; }
+      .ascii { fill: #58a6ff; font-size: 9px; font-weight: 500; }
+      .tag-bg { fill: #21262d; }
+      .tag-hi { fill: #0d2137; }
+      .tag-text { fill: #8b949e; font-size: 10px; }
+      .tag-hi-text { fill: #58a6ff; font-size: 10px; }
+      .tag-grn-bg { fill: #0d1f10; }
+      .tag-grn-text { fill: #3fb950; font-size: 10px; }
+      .scv-grn { fill: #3fb950; font-size: 14px; font-weight: 500; }
+      .scv-blu { fill: #58a6ff; font-size: 14px; font-weight: 500; }
+      .scv-org { fill: #f0883e; font-size: 14px; font-weight: 500; }
+      .log-t { fill: #58a6ff; font-size: 10px; }
+      .log-dep { fill: #3fb950; font-size: 10px; }
+      .log-bld { fill: #f0883e; font-size: 10px; }
+      .log-inf { fill: #58a6ff; font-size: 10px; }
+      .log-aut { fill: #d2a8ff; font-size: 10px; }
+      .log-msg { fill: #c9d1d9; font-size: 10px; }
+    </style>
+  </defs>
+
+  <!-- Root background -->
+  <rect width="860" height="620" rx="12" class="bg"/>
+  <rect width="860" height="620" rx="12" class="border"/>
+
+  <!-- Title bar -->
+  <rect width="860" height="36" rx="12" class="tbar"/>
+  <rect y="12" width="860" height="24" class="tbar"/>
+  <rect x="0.5" y="0.5" width="859" height="35" rx="0" fill="none" stroke="#30363d" stroke-width="0.5"/>
+  <circle cx="16" cy="18" r="5.5" fill="#ff5f57"/>
+  <circle cx="32" cy="18" r="5.5" fill="#febc2e"/>
+  <circle cx="48" cy="18" r="5.5" fill="#28c840"/>
+  <text x="68" y="23" class="ttl">pasan@cloud-lab  —  bash  —  ssh://github.com/Pasan02</text>
+
+  <!-- ===== LEFT COLUMN ===== -->
+
+  <!-- neofetch prompt -->
+  <text x="20" y="60"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan><tspan class="val">neofetch --profile</tspan></text>
+
+  <!-- neofetch box -->
+  <rect x="20" y="66" width="400" height="230" rx="8" class="box"/>
+  <rect x="20" y="66" width="400" height="230" rx="8" class="border"/>
+
+  <!-- ASCII art -->
+  <text x="32" y="84" class="ascii">  ____</text>
+  <text x="32" y="95" class="ascii"> |  _ \ __ _ ___  __ _ _ __</text>
+  <text x="32" y="106" class="ascii"> | |_) / _` / __|/ _` | '_ \</text>
+  <text x="32" y="117" class="ascii"> |  __/ (_| \__ \ (_| | | | |</text>
+  <text x="32" y="128" class="ascii"> |_|   \__,_|___/\__,_|_| |_|</text>
+
+  <text x="32" y="144"><tspan class="grn">pasan</tspan><tspan class="dim">@</tspan><tspan class="grn">cloud-lab</tspan></text>
+  <line x1="32" y1="151" x2="408" y2="151" stroke="#30363d" stroke-width="0.8"/>
+
+  <text x="32" y="165"><tspan class="key">Name      </tspan><tspan class="val">  Pasan Ranaweera</tspan></text>
+  <text x="32" y="180"><tspan class="key">Role      </tspan><tspan class="val">  DevOps / Cloud Intern</tspan></text>
+  <text x="32" y="195"><tspan class="key">University</tspan><tspan class="val">  University of Ruhuna · BSc CE</tspan></text>
+  <text x="32" y="210"><tspan class="key">Location  </tspan><tspan class="val">  Kalutara, Sri Lanka</tspan></text>
+  <text x="32" y="225"><tspan class="key">Focus     </tspan><tspan class="val">  Infra · CI/CD · Containers</tspan></text>
+  <text x="32" y="240"><tspan class="key">Portfolio </tspan><tspan class="grn">  pasan02.github.io</tspan></text>
+  <text x="32" y="255"><tspan class="key">Status    </tspan><tspan class="grn">  ◉ Open to Internships</tspan></text>
+
+  <line x1="32" y1="263" x2="408" y2="263" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- Tags row 1 -->
+  <rect x="32" y="270" width="52" height="16" rx="3" class="tag-hi"/>
+  <text x="58" y="281" text-anchor="middle" class="tag-hi-text">Docker</text>
+
+  <rect x="90" y="270" width="42" height="16" rx="3" class="tag-hi"/>
+  <text x="111" y="281" text-anchor="middle" class="tag-hi-text">Azure</text>
+
+  <rect x="138" y="270" width="36" height="16" rx="3" class="tag-hi"/>
+  <text x="156" y="281" text-anchor="middle" class="tag-hi-text">AWS</text>
+
+  <rect x="180" y="270" width="108" height="16" rx="3" class="tag-hi"/>
+  <text x="234" y="281" text-anchor="middle" class="tag-hi-text">GitHub Actions</text>
+
+  <rect x="294" y="270" width="58" height="16" rx="3" class="tag-hi"/>
+  <text x="323" y="281" text-anchor="middle" class="tag-hi-text">Jenkins</text>
+
+  <rect x="358" y="270" width="56" height="16" rx="3" class="tag-hi"/>
+  <text x="386" y="281" text-anchor="middle" class="tag-hi-text">Terraform</text>
+
+  <!-- ===== SKILLS (right column, top) ===== -->
+
+  <text x="440" y="60"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan><tspan class="val">cat skills.json</tspan></text>
+
+  <rect x="440" y="66" width="400" height="230" rx="8" class="box"/>
+  <rect x="440" y="66" width="400" height="230" rx="8" class="border"/>
+
+  <!-- Cloud & DevOps -->
+  <text x="452" y="84" class="dim">// Cloud &amp; DevOps</text>
+  <rect x="452" y="90" width="52" height="16" rx="3" class="tag-hi"/>
+  <text x="478" y="101" text-anchor="middle" class="tag-hi-text">Docker</text>
+  <rect x="510" y="90" width="42" height="16" rx="3" class="tag-hi"/>
+  <text x="531" y="101" text-anchor="middle" class="tag-hi-text">Azure</text>
+  <rect x="558" y="90" width="36" height="16" rx="3" class="tag-hi"/>
+  <text x="576" y="101" text-anchor="middle" class="tag-hi-text">AWS</text>
+  <rect x="600" y="90" width="36" height="16" rx="3" class="tag-hi"/>
+  <text x="618" y="101" text-anchor="middle" class="tag-hi-text">GCP</text>
+  <rect x="642" y="90" width="108" height="16" rx="3" class="tag-hi"/>
+  <text x="696" y="101" text-anchor="middle" class="tag-hi-text">GitHub Actions</text>
+  <rect x="756" y="90" width="58" height="16" rx="3" class="tag-hi"/>
+  <text x="785" y="101" text-anchor="middle" class="tag-hi-text">Jenkins</text>
+  <rect x="452" y="112" width="56" height="16" rx="3" class="tag-hi"/>
+  <text x="480" y="123" text-anchor="middle" class="tag-hi-text">Terraform</text>
+  <rect x="514" y="112" width="36" height="16" rx="3" class="tag-hi"/>
+  <text x="532" y="123" text-anchor="middle" class="tag-hi-text">Nginx</text>
+  <rect x="556" y="112" width="60" height="16" rx="3" class="tag-hi"/>
+  <text x="586" y="123" text-anchor="middle" class="tag-hi-text">Linux/Bash</text>
+
+  <line x1="452" y1="136" x2="828" y2="136" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- Backend -->
+  <text x="452" y="150" class="dim">// Backend &amp; Systems</text>
+  <rect x="452" y="156" width="72" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="488" y="167" text-anchor="middle" class="tag-grn-text">TypeScript</text>
+  <rect x="530" y="156" width="88" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="574" y="167" text-anchor="middle" class="tag-grn-text">JavaScript</text>
+  <rect x="624" y="156" width="52" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="650" y="167" text-anchor="middle" class="tag-grn-text">Python</text>
+  <rect x="682" y="156" width="76" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="720" y="167" text-anchor="middle" class="tag-grn-text">Spring Boot</text>
+  <rect x="764" y="156" width="64" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="796" y="167" text-anchor="middle" class="tag-grn-text">Node.js</text>
+  <rect x="452" y="178" width="54" height="16" rx="3" fill="#0d200d" stroke="#1a3e20" stroke-width="0.5"/>
+  <text x="479" y="189" text-anchor="middle" class="tag-grn-text">FastAPI</text>
+
+  <line x1="452" y1="202" x2="828" y2="202" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- Databases -->
+  <text x="452" y="216" class="dim">// Databases &amp; Tools</text>
+  <rect x="452" y="222" width="84" height="16" rx="3" fill="#1a1209" stroke="#3d2e0a" stroke-width="0.5"/>
+  <text x="494" y="233" text-anchor="middle" fill="#f0883e" font-size="10">PostgreSQL</text>
+  <rect x="542" y="222" width="50" height="16" rx="3" fill="#1a1209" stroke="#3d2e0a" stroke-width="0.5"/>
+  <text x="567" y="233" text-anchor="middle" fill="#f0883e" font-size="10">MySQL</text>
+  <rect x="598" y="222" width="66" height="16" rx="3" fill="#1a1209" stroke="#3d2e0a" stroke-width="0.5"/>
+  <text x="631" y="233" text-anchor="middle" fill="#f0883e" font-size="10">MongoDB</text>
+  <rect x="670" y="222" width="46" height="16" rx="3" fill="#1a1209" stroke="#3d2e0a" stroke-width="0.5"/>
+  <text x="693" y="233" text-anchor="middle" fill="#f0883e" font-size="10">Prisma</text>
+  <rect x="722" y="222" width="36" height="16" rx="3" fill="#1a1209" stroke="#3d2e0a" stroke-width="0.5"/>
+  <text x="740" y="233" text-anchor="middle" fill="#f0883e" font-size="10">Git</text>
+
+  <!-- Frontend row -->
+  <line x1="452" y1="246" x2="828" y2="246" stroke="#30363d" stroke-width="0.8"/>
+  <text x="452" y="260" class="dim">// Frontend</text>
+  <rect x="452" y="266" width="52" height="16" rx="3" fill="#15101f" stroke="#3d2060" stroke-width="0.5"/>
+  <text x="478" y="277" text-anchor="middle" fill="#d2a8ff" font-size="10">Next.js</text>
+  <rect x="510" y="266" width="46" height="16" rx="3" fill="#15101f" stroke="#3d2060" stroke-width="0.5"/>
+  <text x="533" y="277" text-anchor="middle" fill="#d2a8ff" font-size="10">React</text>
+  <rect x="562" y="266" width="72" height="16" rx="3" fill="#15101f" stroke="#3d2060" stroke-width="0.5"/>
+  <text x="598" y="277" text-anchor="middle" fill="#d2a8ff" font-size="10">TailwindCSS</text>
+
+  <!-- ===== PROJECTS STATUS ===== -->
+  <text x="20" y="316"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan><tspan class="val">systemctl status projects</tspan></text>
+
+  <!-- Project cards 2x2 grid -->
+  <rect x="20" y="322" width="192" height="72" rx="6" class="box"/>
+  <rect x="20" y="322" width="192" height="72" rx="6" class="border"/>
+  <text x="32" y="338" class="dim">CRM · Travel Agency</text>
+  <text x="32" y="356" class="scv-grn">● LIVE</text>
+  <text x="32" y="372" class="dim">Azure · Docker · Next.js</text>
+  <text x="32" y="385" class="dim">GitHub Actions CI/CD</text>
+
+  <rect x="220" y="322" width="192" height="72" rx="6" class="box"/>
+  <rect x="220" y="322" width="192" height="72" rx="6" class="border"/>
+  <text x="232" y="338" class="dim">Internship Mgmt · Uni Ruhuna</text>
+  <text x="232" y="356" class="scv-org">◐ IN PROGRESS</text>
+  <text x="232" y="372" class="dim">AWS · Spring Boot · Next.js</text>
+  <text x="232" y="385" class="dim">MySQL · Docker · GH Actions</text>
+
+  <rect x="420" y="322" width="192" height="72" rx="6" class="box"/>
+  <rect x="420" y="322" width="192" height="72" rx="6" class="border"/>
+  <text x="432" y="338" class="dim">MovieBox Tracker</text>
+  <text x="432" y="356" class="scv-grn">● LIVE</text>
+  <text x="432" y="372" class="dim">Jenkins · Terraform · AWS EC2</text>
+  <text x="432" y="385" class="dim">Nginx · MongoDB · TMDB API</text>
+
+  <rect x="620" y="322" width="220" height="72" rx="6" class="box"/>
+  <rect x="620" y="322" width="220" height="72" rx="6" class="border"/>
+  <text x="632" y="338" class="dim">Home Lab Server</text>
+  <text x="632" y="356" class="scv-blu">● RUNNING</text>
+  <text x="632" y="372" class="dim">Debian · Docker · Immich</text>
+  <text x="632" y="385" class="dim">Cloudflare Tunnel</text>
+
+  <!-- ===== CONTACT ===== -->
+  <text x="20" y="416"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan><tspan class="val">cat contact.txt</tspan></text>
+
+  <rect x="20" y="422" width="400" height="100" rx="8" class="box"/>
+  <rect x="20" y="422" width="400" height="100" rx="8" class="border"/>
+
+  <text x="32" y="440"><tspan class="key">Email    </tspan><tspan class="val">  pasanranaweera5@gmail.com</tspan></text>
+  <text x="32" y="456"><tspan class="key">Phone    </tspan><tspan class="val">  +94 76 315 8431</tspan></text>
+  <text x="32" y="472"><tspan class="key">LinkedIn </tspan><tspan class="grn">  linkedin.com/in/pasan2002</tspan></text>
+  <text x="32" y="488"><tspan class="key">Portfolio</tspan><tspan class="grn">  pasan02.github.io</tspan></text>
+  <line x1="32" y1="496" x2="408" y2="496" stroke="#30363d" stroke-width="0.8"/>
+  <text x="32" y="510" class="dim">Seeking: Cloud Engineering · DevOps · Platform roles</text>
+
+  <!-- ===== GIT LOG ===== -->
+  <text x="440" y="416"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan><tspan class="val">git log --oneline --all</tspan></text>
+
+  <rect x="440" y="422" width="400" height="100" rx="8" class="box"/>
+  <rect x="440" y="422" width="400" height="100" rx="8" class="border"/>
+
+  <text x="452" y="440"><tspan class="log-t">a3f92c1 </tspan><tspan class="log-dep">[DEPLOYED] </tspan><tspan class="log-msg">Dockerized CRM → Azure production</tspan></text>
+  <text x="452" y="456"><tspan class="log-t">b71e4a0 </tspan><tspan class="log-bld">[BUILD]    </tspan><tspan class="log-msg">GitHub Actions CI/CD auto-deploy</tspan></text>
+  <text x="452" y="472"><tspan class="log-t">c9d81f3 </tspan><tspan class="log-inf">[INFRA]    </tspan><tspan class="log-msg">Terraform + Jenkins + AWS EC2</tspan></text>
+  <text x="452" y="488"><tspan class="log-t">d22b6e7 </tspan><tspan class="log-bld">[BUILD]    </tspan><tspan class="log-msg">Internship Mgmt · Spring Boot + AWS</tspan></text>
+  <text x="452" y="504"><tspan class="log-t">e5501cc </tspan><tspan class="log-inf">[HOMELAB]  </tspan><tspan class="log-msg">Debian server · Cloudflare Tunnel</tspan></text>
+
+  <!-- Bottom prompt with cursor -->
+  <text x="20" y="545"><tspan class="prompt-host">pasan@cloud-lab</tspan><tspan class="prompt-sym">:~$ </tspan></text>
+  <rect x="153" y="532" width="7" height="13" fill="#58a6ff" opacity="0.9"/>
+</svg>
